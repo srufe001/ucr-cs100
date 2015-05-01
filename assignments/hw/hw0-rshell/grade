@@ -1,12 +1,12 @@
-115/ 100
+125/ 100
 
 Extra credit:10 /10 + 10 for Friday submission
   [ /10]all of prompts have the user information
 
-Part 1: 25/30
+Part 1: 30/30
   [ /5]run any command with no params
   [ /5]run any command with a small number of params
-  [0 /5]run any command with a large (>10) number of params
+  [ /5]run any command with a large (>10) number of params
   [ /5]run both a command in `/bin` and a command in the current directory;
 for example, run rshell from within rshell
   [ /5]if command doesn't exist, print appropriate error message
@@ -28,9 +28,9 @@ Part 3: 20/20
   [ /5]exit as a parameter to something else shouldn't exit, e.g. `ls -l exit`
   [ /5] exit in a chain of commands should exit, e.g. `ls -l; exit`
 
-Part 4:15 /20
+Part 4:20 /20
   [ /10]comment within a command: `ls -l # this is a comment`
   [ /5]comment on a line by itself
-  [0 /5]comment where `#` touches something else: `ls -l# this is a comment
+  [ /5]comment where `#` touches something else: `ls -l# this is a comment
   here` 
 
