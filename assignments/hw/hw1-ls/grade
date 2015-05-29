@@ -1,2 +1,23 @@
-/ 100
+105/ 100
+Last update Fri May 1 23:31:21 2015 -0700
+
+Error checking for syscalls
+
+file: [src/ls.cpp] -5
+
+
+
+test ls output
+[34m1[0m/  [32ma[0m*  [32maa[0m*  [32mb[0m*  [32mc[0m*
++15: Extra - coloring works
+
+
+-5 for missing tests:
+-0: ./ls -a.*-l.*-R flag does not work
+-0: ./ls -a.*-R.*-l flag does not work
+-0: ./ls -l.*-a.*-R flag does not work
+-0: ./ls -l.*-R.*-a flag does not work
+-0: ./ls -R.*-a.*-l flag does not work
+-0: ./ls -R.*-l.*-a flag does not work
+
 
